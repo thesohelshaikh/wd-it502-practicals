@@ -1,0 +1,81 @@
+body {
+    background: honeydew;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.intro {
+    top: 0;
+    min-height: 100vh;
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.intro p {
+    color: green;
+    font-size: 2em;
+}
+
+#welcome-section h1 {
+    font-size: 5em;
+}
+
+#about {
+    margin-top: 50px;
+}
+
+#about h1 {
+    margin: 50px;
+}
+
+#user-img>img {
+    height: 300px;
+    padding: 10px;
+}
+
+.project-title {
+    margin: 50px;
+}
+
+#projects {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#contact {
+    margin: 100px;
+    height: 300px;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+.btn {
+    margin: 20px;
+}
+
+@media only screen and (max-width: 367px) {
+    /*    #contact{
+        min-height:1100px;
+      } */
+    .contact-details {
+        border: 2px solid #90C695;
+        border-radius: 0;
+        width: 90px;
+        height: 20px;
+        padding: 10px;
+        line-height: normal;
+    }
+}
+
+#footer {
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
