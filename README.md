@@ -3,7 +3,8 @@ Practicals for Web Designing (IT502)
 
 ### Check out [here.](https://wdsohel.netlify.com/)
 
-### Languages used:
+### Ingredients:
 1. HTML
 2. CSS
 3. JavaScript
+4. Bootstrap
