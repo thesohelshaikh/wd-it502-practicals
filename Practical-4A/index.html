@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Font Properties</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
@@ -13,10 +16,112 @@
 
     </header>
     <main>
-        <h1>Font properties</h1>
+        <div class="container">
+            <div class="py-5">
+                <h1 class="display-4">CSS Font properties</h1>
+                <hr>
+                <p class="alert alert-success">
+                    The CSS font properties define the font family, boldness, size, and the style of a text.
+                </p>
+            </div>
+
+            <div>
+                <div id="section">
+                    <h1>Serif and Sans-Serif</h1>
+                    <hr>
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Sans-Serif</th>
+                            <th>Serif</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="demo sans-text">F</div>
+                            </td>
+                            <td>
+                                <div class=" demo serif-text">F</div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p class="text-danger">
+                        Serif fonts have small lines at the ends on some characters <br />
+                        "Sans" means without - these fonts do not have the lines at the ends of characters
+                    </p>
+                </div>
+
+                <div id="section">
+                    <h1>Font-family</h1>
+                    <hr>
+
+                    <ul>
+                        <li>
+                            The font family of a text is set with the font-family property.
+                        </li>
+                        <li>
+                            The font-family property should hold several font names as a "fallback" system. If the
+                            browser does not support the first font, it tries the next font, and so on.
+                        </li>
+                    </ul>
+                    <p class="sans-text">
+                        This is a paragraph, shown in the Times New Roman font.
+                    </p>
+                    <p class="serif-text">
+                        This is a paragraph, shown in the Arial font.
+                    </p>
+                </div>
+
+                <div id="section">
+                    <h1>Font Style</h1>
+                    <hr />
+                    <p>
+                        This property has three values:
+                    </p>
+                    <ol>
+                        <li>
+                            normal - The text is shown normally
+                        </li>
+                        <li>
+                            italic - The text is shown in italics
+                        </li>
+                        <li>
+                            oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+                        </li>
+                    </ol>
+
+                    <p class="normal">This is a paragraph in normal style.</p>
+                    <p class="italic">This is a paragraph in italic style.</p>
+                    <p class="oblique">This is a paragraph in oblique style.</p>
+
+                </div>
+
+                <div id="section">
+                    <h1>Font Size</h1>
+                    <hr>
+
+                    <ul>
+                        <li>
+                            <p class="absolute-size">
+                                Absolute
+                            </p>
+                        </li>
+                        <li>
+                            <p class="relative-size">
+                                Relative
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>

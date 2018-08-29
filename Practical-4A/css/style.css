@@ -1,0 +1,49 @@
+body {
+    background: lightcyan;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #666;
+}
+
+#section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.demo {
+    font-size: 2.5em;
+}
+.sans-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serif-text {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+.absolute-size {
+    font-size: 16px;
+}
+
+.relative-size {
+    font-size: 1em;
+}
