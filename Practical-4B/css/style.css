@@ -1,0 +1,74 @@
+body {
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #666;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#bg1 {
+    height: 100px;
+    width: 100px;
+    background-color: #333;
+    display: inline-block;
+}
+
+#bg2 {
+    height: 100px;
+    width: 100px;
+    background-color: #666
+}
+
+#bg3 {
+    height: 100px;
+    width: 100px;
+    background-color: #999
+}
+
+#img1 {
+    height: 100px;
+    background-image: url("/Practical-4B/assets/bananas.png");
+}
+
+#img2 {
+    height: 100px;
+    background-image: url("/Practical-4B/assets/oriental.png");
+}
+
+#img3 {
+    height: 100px;
+    background-image: url("/Practical-4B/assets/palm-leaf.png");
+}
+
+#back-repeat {
+    width: 1000px;
+    height: 200px;
+    background-image: url("/Practical-4B/assets/oriental.png");
+    background-repeat: repeat-x;
+}
+
+#back-pos {
+    width: 1000px;
+    height: 200px;
+    background-image: url("/Practical-4B/assets/bananas.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#back-att {
+    width: 1000px;
+    height: 200px;
+    background-image: url("/Practical-4B/assets/palm-leaf.png");
+    /* background-position: right top; */
+    background-attachment: fixed;
+}
