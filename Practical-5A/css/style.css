@@ -15,3 +15,147 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+#dotted-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.dotted {
+    height: 50px;
+    border-style: dotted;
+    border-color: red;
+    margin: 2px; 
+}
+
+#dashed-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.dashed {
+    height: 50px;
+    border-style: dashed;
+    border-color: green;
+    margin: 2px; 
+}
+
+#solid-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.solid {
+    height: 50px;
+    border-style: solid;
+    border-color: blue;
+    margin: 2px; 
+}
+
+#double-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.double {
+    height: 50px;
+    border-style: double;
+    border-color: red;
+    margin: 2px; 
+}
+
+#groove-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+.groove {
+    height: 50px;
+    border-style: groove;
+    border-color: green;
+    margin: 2px; 
+}
+
+#ridge-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.ridge {
+    height: 50px;
+    border-style: ridge;
+    border-color: blue;
+    margin: 2px; 
+}
+
+#inset-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.inset {
+    height: 50px;
+    border-style: inset;
+    border-color: red;
+    margin: 2px; 
+}
+
+#outset-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.outset {
+    height: 50px;
+    border-style: outset;
+    border-color: green;
+    margin: 2px; 
+}
+
+#none-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.none {
+    height: 50px;
+    border-style: none;
+    margin: 2px; 
+}
+
+#hidden-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.hidden {
+    height: 50px;
+    border-style: hidden;
+    margin: 2px; 
+}
+#mix-container {
+    height: 100px;
+    text-align: center;
+    /* background-color: #666; */
+}
+
+.mix {
+    height: 50px;
+    border-style: dotted dashed solid double;
+    border-color: green;
+    margin: 2px; 
+}
+
+
+
+
+
