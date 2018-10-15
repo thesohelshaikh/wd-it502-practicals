@@ -1,0 +1,10 @@
+body {}
+
+h1 {
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #666;
+}
