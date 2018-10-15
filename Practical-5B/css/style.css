@@ -1,0 +1,110 @@
+body {}
+
+h1 {
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #666;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+.d1,
+.d2,
+.d3,
+.d4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+#div1 > .d1 {
+    border-top-left-radius: 100%;
+    background-color: red;
+    border-bottom-right-radius: 100%;
+}
+
+#div1 > .d2 {
+    background-color: blue;
+    margin-left: 100px;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+#div1 > .d3 {
+    background-color: green;
+    margin-top: 100px;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+#div1 > .d4 {
+    background-color: yellow;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#div2 > .d1 {
+    border-top-right-radius: 100%;
+    background-color: red;
+    border-bottom-left-radius: 100%;
+}
+
+#div2 > .d2 {
+    background-color: blue;
+    margin-left: 100px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+#div2 > .d3 {
+    background-color: green;
+    margin-top: 100px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+#div2 > .d4 {
+    background-color: yellow;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#div3 > .d1 {
+    border-top-left-radius: 50%;
+    background-color: red;
+    border-bottom-right-radius: 100%;
+}
+
+#div3 > .d2 {
+    background-color: blue;
+    margin-left: 100px;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 50%;
+}
+
+#div3 > .d3 {
+    background-color: green;
+    margin-top: 100px;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 50%;
+}
+
+#div3 > .d4 {
+    background-color: yellow;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
