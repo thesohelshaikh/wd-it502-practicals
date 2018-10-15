@@ -1,0 +1,31 @@
+body {}
+
+h1 {
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #666;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#box-demo {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+
+p.ex1 {
+    margin: 35px 70px 50px 90px;
+
+}
+
+div.a {
+    border: 1px solid red;
+    outline: 2px dashed blue;
+}
