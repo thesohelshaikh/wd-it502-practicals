@@ -1,0 +1,38 @@
+#square {
+    height: 200px;
+    width: 200px;
+    background-color: #CCC;
+}
+
+#square:hover {
+    height: 200px;
+    width: 200px;
+    background-color: #333;
+    animation-name: shape;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#square {
+    color: red;
+    text-align: center;
+    padding-top: 75px;
+}
+
+@keyframes shape {
+    0% {
+        background-color: #333;
+    }
+
+    50% {
+        border-radius: 50%;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+footer {
+    ma
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practical-5C</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="display-4">CSS Box shadow, margin, outline</h1>
+            <hr>
+            <div class="section">
+                <h1>box-shadow</h1>
+                <hr>
+
+                <p>The following values are allowed:</p>
+
+                <ul>
+                    <li><code>none</code> - No shadow</li>
+                    <li><code>h-offset</code> - Horizontal offset (required)</li>
+                    <li><code>v-offset</code> - Vertical offset (required)</li>
+                    <li><code>blur</code> - Defines blur radius (optional)</li>
+                    <li><code>spread</code> - Defines spread radius (optional)</li>
+                    <li><code>color</code> - Defines color of the shadow</li>
+                    <li><code>inset</code> - Chnges outer shadow to inner shadow</li>
+                    <li><code>initial</code> - Default value</li>
+                    <li><code>inherit</code> - inherits from parent</li>
+                </ul>
+                <b>Example:-</b>
+                <div id="box-demo">
+                    <h3>box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green:</h3>
+                </div>
+            </div>
+            <div class="section">
+                <h1>margin</h1>
+                <hr>
+
+                <p>The <code>margin</code> property sets the margins for an element, and is a shorthand property for
+                    the following
+                    properties:</p>
+
+                <ul>
+                    <li><code>margin-top</code></li>
+                    <li><code>margin-right</code></li>
+                    <li><code>margin-bottom</code></li>
+                    <li><code>margin-left</code></li>
+                </ul>
+                <b>Example:-</b>
+                <div id="margin-demo">
+                    <p>A paragraph with no specified margins.</p>
+                    <p class="ex1">This paragraph has a 35 pixels margin for top, a 70 pixels margin for right, a 50
+                        pixels margin for bottom, and a 90 pixels margin for left.</p>
+                    <p>A paragraph with no specified margins.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h1>outline</h1>
+                <hr>
+
+                <p>An outline is a line that is drawn around elements, outside the borders, to make the element "stand
+                    out".</p>
+                <p>The <code>outline</code> property is a shorthand property for:</p>
+
+                <ul>
+                    <li><code>outline-width</code></li>
+                    <li><code>outline-style</code>(required)</li>
+                    <li><code>outline-color</code></li>
+                </ul>
+                <b>Example:-</b>
+                <div id="outline-demo">
+                    <div class="a">A div element with a 2 pixels blue dashed outline. Also notice that the outline is
+                        outside of any border.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer container">
+        <h2>References</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp">box-shadow property</a></li>
+            <li><a href="https://www.w3schools.com/cssref/pr_margin.asp">margin property</a></li>
+            <li><a href="https://www.w3schools.com/cssref/pr_outline.asp">outline property</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
