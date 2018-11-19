@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Current Date & Time</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <h1 class="text-primary">Javascript Time</h1>
+    <hr>
+
+    <script type="text/javascript">
+        // Get current time
+        var d = new Date();
+        var h = d.getHours();
+        var dd = d.getDate();
+        var mm = d.getMonth() + 1;
+        var yyyy = d.getFullYear();
+        var min = d.getMinutes();
+        var sec = d.getSeconds();
+
+        // Check if it is day or night
+        var a;
+        if (h >= 0 && h < 12) {
+            a = "AM";
+        } else {
+            a = "PM";
+        }
+
+        // greetings based on hours
+        if (h >= 0 && h < 12) {
+            document.write("<h2>Good Morning, ");
+        } else if (h >= 12 && h < 17) {
+            document.write("<h2>Good Afternoon, ");
+        } else if (h >= 17 && h < 22) {
+            document.write("<h2>Good Evening, ");
+        } else {
+            document.write("<h2>Good Night, ");
+        }
+
+        document.write(dd + '/' + mm + '/' + yyyy + ' ' + h + ':' + min + ':' + sec + ' ' + a + "</h2>");
+    </script>
+
+
+</body>
+
+</html>
