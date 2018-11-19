@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Arrays</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <main class="container">
+        <h1>JavaScript Arrays</h1>
+        <hr>
+    </main>
+
+    <script>
+        // Declaring duplicate arrays
+        var arr1 = [1, 2, 3];
+        var arr2 = [1, 2, 3];
+
+        // Printing out array values
+        document.write("Array 1: " + arr1 + "</br>");
+        document.write("Array 2: " + arr2 + "</br>");
+
+        // Concatenting arrays
+        var arr3 = arr1.concat(arr2);
+        document.write("Concatenated array(with duplicates): " + arr3 + "</br>");
+
+        let unique = Array.from(new Set(arr3));
+
+        document.write("Unique array(removed duplicates): " + unique);
+    </script>
+</body>
+
+</html>

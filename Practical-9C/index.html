@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorted Names</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body class="container">
+    <script type="text/javascript">
+        function enterNames() {
+            var nameArray = [];
+
+            // Prompt until user enters 'END'
+            while (nameArray[0] != 'END' && nameArray[0] != 'end') {
+                // Adds new elements
+                nameArray.unshift(prompt("Enter one Name and press enter, END to exit", ''));
+            }
+            
+            // Removes first element
+            nameArray.shift();
+
+            nameArray.sort();
+
+            document.write("<h1> Sorted Names: </h1><hr><ol>");
+
+            for (var i = 0; i < nameArray.length; i++) {
+                document.write("<li>" + nameArray[i] + "</li>");
+            }
+
+            document.write("</ol>");
+        }
+        enterNames();
+    </script>
+</body>
+
+</html>
